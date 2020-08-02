@@ -30,12 +30,14 @@ func main() {
 		fmt.Printf("%s\n", b)
 
 		//Execrcise 1.7
-		//_, err = io.Copy(os.Stdout, resp.Body)
-		//resp.Body.Close()
-		//if err != nil {
-		//	fmt.Fprintf(os.Stderr, "fetch: reading %s:\t%v\n", url, err)
-		//	os.Exit(1)
-		//}
-		//fmt.Println("")
+		/*
+			_, err = io.Copy(os.Stdout, resp.Body)
+			resp.Body.Close()
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "fetch: reading %s:\t%v\n", url, err)
+				os.Exit(1)
+			}
+			fmt.Println("")
+		*/
 	}
 }
